@@ -1,0 +1,198 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+ body{
+  background-color: teal;
+  display: flex;
+ 
+ 
+ }
+   
+.fir{ 
+  display:flex;
+  align-items: center;
+  gap: 60px;
+ margin-top: 0px;
+
+}
+
+.fir p{
+  font-size: 25px; 
+  
+}
+
+
+.img-box{
+  width: 83px;
+  height: 90px;
+  margin-bottom: 20px;
+    overflow: hidden;
+  border-radius: 50%;
+ border: white solid ;
+ flex-shrink: 0;
+}
+
+ .img-box img{
+  width: 100%;
+}
+
+
+.menu{
+  display: flex;
+  flex-wrap: warp;
+  flex-direction: column;
+  padding: 15px;
+  width: 100px;
+  height:100vh;
+  background-color: lavender;
+  background-attachment: fixed;
+  flex-shrink: 0;
+  overflow:hidden;
+  transition: 0.5s;
+}
+.menu:hover{
+  width: 280px;
+}
+
+
+
+
+
+ .menu ul{
+  list-style: none;
+  position: relative;
+  height:95%;
+  overflow: visible;
+ 
+}
+
+
+ .menu ul li a {
+  display: flex;
+  gap: 100px;
+ align-items: center;
+ text-decoration: none;
+ color: rgb(27, 25, 25);
+ margin: 10px 5px ;
+ 
+ 
+ }
+
+
+
+
+
+ .menu ul li a i{
+  font-size: 20px;
+ }
+ .menu ul li a p{
+  font-size: 20px;
+ }
+
+
+
+
+ .menu ul li {
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 5px;
+  padding: 5px;
+ }
+ .menu ul li:hover {
+  background-color: #510443ac;
+ }
+
+
+ .menu ul {
+  display:flex ;
+  flex-direction: column;
+  gap: 10px;
+ 
+ }
+ .out{
+  display: block;
+  margin-bottom: 10%;
+ }
+ 
+ 
+ 
+
+.ulscroll{
+  overflow:auto;
+}
+::-webkit-scrollbar{
+  width:0px;
+ 
+}
+
+ 
+
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+
+.boxes{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+margin-left: 10%;
+ margin-top: 20px;
+ 
+}
+.box{
+  background-color: royalblue;
+  width:180px ;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+
+.box i{
+  font-size: 30px;
+  color: white;
+}
+
+#bo i{
+  color: red;
+}
+.box span{
+  color: white;
+  font-size: 20px;
+}
+ .all{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+ }
+
+.boxbar{
+   
+background-color:royalblue;
+width: 87%;
+height: 31px;
+margin-bottom: 20px;
+ margin-left: 10%;
+ margin-top: 10px;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 7px;
+ 
+}
+
+
+.boxbar:hover,.box:hover{
+  background-color: #f1e6efac;
+ }
+
+ 
